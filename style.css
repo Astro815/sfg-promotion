@@ -60,6 +60,9 @@ button {
     cursor: pointer;
     margin-top: 10px;
     width: 100%;
+    font-size: 16pt;
+    font-family: monospace;
+    font-weight: bold;
 }
 
 button:hover {
