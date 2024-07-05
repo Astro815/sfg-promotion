@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stayforgame Promotion</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <video id="videoPromo" autoplay muted loop>
+        <source src="./videos/promotion_lowSize.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <div class="container">
+        <h1>Jogos da StayForGame</h1>
+        <div class="games">
+            <div class="game">
+                
+                <img src="images/knuper.png" alt="Jogo 1">
+                <button onclick="openGame('https://stayforgame.itch.io/knuper')">Knuper</button>
+            </div>
+            <div class="game">
+                <img src="images/pypedolls.png" alt="Jogo 2">
+                <button onclick="openGame('https://stayforgame.itch.io/pype-dolls')">PypeDolls</button>
+            </div>
+            <div class="game">
+                <img src="images/brosland.png" alt="Jogo 3" style="image-rendering: pixelated;">
+                <button onclick="openGame('https://stayforgame.itch.io/brosland')">BrosLand</button>
+            </div>
+            <div class="game">
+                <img src="images/comboff.png" alt="Jogo 4">
+                <button onclick="openGame('https://stayforgame.itch.io/comboff')">CombOff</button>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
